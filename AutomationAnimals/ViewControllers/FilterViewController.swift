@@ -42,7 +42,7 @@ class FilterViewController: UIViewController {
     
     private func setupTableView() {
         tableview.translatesAutoresizingMaskIntoConstraints = false
-        tableview.register(UITableViewCell.self, forCellReuseIdentifier: "FilterCell")
+        tableview.register(FilterOptionTableViewCell.self, forCellReuseIdentifier: FilterOptionTableViewCell.identifier)
         tableview.allowsMultipleSelection = true
         tableview.dataSource = self
         tableview.delegate = self
@@ -93,7 +93,9 @@ extension FilterViewController: UITableViewDataSource {
     }
     
     func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
-        let cell = tableview.dequeueReusableCell(withIdentifier: "FilterCell", for: indexPath)
+        guard let cell = tableview.dequeueReusableCell(withIdentifier: FilterOptionTableViewCell.identifier, for: indexPath) as? FilterOptionTableViewCell else {
+            fatalError("Unable to dequeue FilterOptionTableViewCell")
+        }
         
         cell.textLabel?.text = tags[indexPath.row]
                     
