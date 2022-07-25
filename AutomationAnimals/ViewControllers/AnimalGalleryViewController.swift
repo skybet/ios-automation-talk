@@ -51,6 +51,7 @@ class AnimalGalleryViewController: UIViewController {
         view.addSubview(noAnimalsFoundLabel)
         noAnimalsFoundLabel.text = "No Animals Found"
         noAnimalsFoundLabel.textAlignment = .center
+        noAnimalsFoundLabel.textColor = .secondaryLabel
         
         NSLayoutConstraint.activate([
             noAnimalsFoundLabel.centerXAnchor.constraint(equalTo: view.safeAreaLayoutGuide.centerXAnchor),
