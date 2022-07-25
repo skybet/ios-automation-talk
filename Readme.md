@@ -2,7 +2,7 @@
 Example project ready for XCUITesting
 
 ##### Screenshot
-![](screenshots/screenshot.png =x250)
+![](screenshots/screenshot.png)
 
 ##### Image source
 *Cartoon Animals*  
