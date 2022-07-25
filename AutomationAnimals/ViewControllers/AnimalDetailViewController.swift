@@ -28,7 +28,6 @@ class AnimalDetailViewController: UIViewController {
         view.backgroundColor = .systemBackground
     
         setupSubviews()
-        setupConstraints()
         
         title = animal!.name
         animalImageView.image = UIImage(named: animal!.imageName)
@@ -70,9 +69,6 @@ class AnimalDetailViewController: UIViewController {
         favoriteButton.layer.cornerRadius = 8.0
         favoriteButton.addTarget(self, action: #selector(toggleFavorite(_:)), for: .touchUpInside)
         view.addSubview(favoriteButton)
-    }
-    
-    private func setupConstraints() {
         
         NSLayoutConstraint.activate([
             animalImageView.topAnchor.constraint(equalTo: view.safeAreaLayoutGuide.topAnchor, constant: 32.0),

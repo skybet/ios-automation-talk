@@ -17,7 +17,7 @@ class AnimalsDataService {
     
     private func loadAnimals() -> [Animal] {
         return [
-            Animal(id: UUID(uuidString: "e655225c-30b3-4f53-bdc5-b822d3b663c8")!, name: "Crab", size: .small, imageName: "crab", tags: ["Small", "Sea", "Shell"]),
+            Animal(id: UUID(uuidString: "e655225c-30b3-4f53-bdc5-b822d3b663c8")!, name: "Crab", size: .small, imageName: "crab", tags: ["Small", "Sea", "Shore", "Rockpool", "Shell"]),
             Animal(id: UUID(uuidString: "587a6c4c-35f4-438b-8884-87da0189c11a")!, name: "Elephant", size: .large, imageName: "elephant", tags: ["Large", "Land", "Hair"]),
             Animal(id: UUID(uuidString: "40ecda3a-7b64-49a8-b7e0-b26851e990e7")!, name: "Giraffe", size: .large, imageName: "giraffe", tags: ["Large", "Land", "Hair"]),
             Animal(id: UUID(uuidString: "a16a0d26-61eb-409b-a62a-9a83b0e0d416")!, name: "Horse", size: .large, imageName: "horse", tags: ["Large", "Land", "Hair"]),
