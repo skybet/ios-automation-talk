@@ -114,6 +114,7 @@ class AnimalDetailViewController: UIViewController {
     
     private func updateFavoriteStatus() {
         let isFavorite = favoritesService!.isFavorite(id: animal!.id)
+        
         favoriteImageView.isHidden = isFavorite == false
         let favoriteButtonTitle = isFavorite ? "Remove Favourite" : "Favourite"
         favoriteButton.setTitle(favoriteButtonTitle, for: .normal)

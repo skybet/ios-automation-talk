@@ -61,6 +61,9 @@ _note: Filter is done based on **OR** filtering_
 
 ###### Screenshot
 ![](screenshots/screenshot.png)
+![](screenshots/screenshot_2.png)
+![](screenshots/screenshot_3.png)
+![](screenshots/screenshot_4.png)
 
 _Image source_
 *Cartoon Animals*  
