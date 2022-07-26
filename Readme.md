@@ -1,8 +1,13 @@
 ### Automation Animals  
+.. a sample application to allow iOS Developers, SEiT, Automation Engineers, Testers to practice implementing XCUITests  
 
-Welcome to **Automation Animals** .. a sample application to allow iOS Developers, SEiT, Automation Engineers, Testers to practice implementing XCUITests  
+### About
+Automation Animals is an application that lets you select animals, view details and mark animal(s) as favorites
+Included within the application are some of the basic features of Product/Details applications i.e. filters and favoriting
+Future roadmap items for this application could see Searching added .. but we would want to see a more robust test suite to prevent too much technical debt.
 
-Automation Animals has **3 ViewControllers**:   
+### Application
+Automation Animals has **3 View Controllers**:   
 - Animals Gallery View Controller
 - Animal Detail View Controller
 - Filtering View Controller
@@ -28,7 +33,8 @@ It communicates tag selection via a delegate method
 _Developer note: Filter View Controller demonstrates the more traditional datasource/delegate approach to tableview_
 
 **Favorite Animal(s)** 
-An animal can have two states, Favorited or Not-favorited. The only visual difference is that a Favorited animal’s image will contain a small yellow filled star
+An animal can have two states, **Favorited** or **Not-favorited**. 
+The only visual difference is that a Favorited animal’s image will contain a small yellow filled star
 
 ### Challenge
 The challenge for you is to integrate XCUITests into the application to verify the UI presentation accurately represents various User Journeys
@@ -48,6 +54,7 @@ The challenge for you is to integrate XCUITests into the application to verify t
 - As a user with some Filters applied, I can clear all filters
 _note: Filter is done based on **OR** filtering_
 
+* * *
 
 ###### Screenshot
 ![](screenshots/screenshot.png)
