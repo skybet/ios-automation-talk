@@ -37,6 +37,7 @@ _Developer note: Filter View Controller demonstrates the more traditional dataso
 **Favorite Animal(s)**  
 An animal can have two states, **Favorited** or **Not-favorited**.  
 The only visual difference is that a Favorited animal’s image will contain a small yellow filled star
+![](screenshots/favorite_cell.png)
 
 ### Challenge
 The challenge for you is to integrate XCUITests into the application to verify the UI presentation accurately represents various User Journeys
