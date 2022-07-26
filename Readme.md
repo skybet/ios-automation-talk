@@ -44,17 +44,17 @@ The challenge for you is to integrate XCUITests into the application to verify t
 
 ### User Journeys:
 **First Launch**
-- As a user entering the app for the first time (favorites is Off and no filters applied) I see all animals (12) in the Gallery and am able to select each one .. upon selection, the user is taken to the animal detail view and presented with information for the selected animal and the favorite button is green and available to tap
-- As a user entering the app for the first time (favorites is Off and no filters applied). When the User taps Favorites star (Gallery View Controller) then all animals disappear and a message saying “No animals found” appears
+- As a user entering the app for the first time (favorites is Off and no filters applied) I see all animals (12) in the Gallery and am able to select each one .. upon selection, the user is taken to the animal detail view and presented with information for the selected animal and the favorite button is green and available to tap  
+- As a user entering the app for the first time (favorites is Off and no filters applied). When the User taps Favorites star (Gallery View Controller) then all animals disappear and a message saying “No animals found” appears  
 
 **Favoriting**
-- As a user I am able to select an animal from the Gallery, and mark them as favorite. Once favorited, a little star is presented on the animal image (both Gallery and Detail).
+- As a user I am able to select an animal from the Gallery, and mark them as favorite. Once favorited, a little star is presented on the animal image (both Gallery and Detail).  
 - As a user with some favorites added. When the User taps Favorites star (Gallery View Controller) only animals that have been favorited appears in the grid (collection view). Tapping on a favoried animal should navigate to Details View Controller presenting the correct information
 
 **Filtering**
-- As a user I am able to Filter the animals based on various Tags (Strings). When a filter is applied, the animals presented in the grid (collection view) changes. Tapping on a filtered animal should navigate to Details View Controller presenting the correct information
-- As a user with some Filters applied, I can open the Filter View Controller again and see the existing selection in the multiple selection table view
-- As a user with some Filters applied, I can clear all filters
+- As a user I am able to Filter the animals based on various Tags (Strings). When a filter is applied, the animals presented in the grid (collection view) changes. Tapping on a filtered animal should navigate to Details View Controller presenting the correct information  
+- As a user with some Filters applied, I can open the Filter View Controller again and see the existing selection in the multiple selection table view  
+- As a user with some Filters applied, I can clear all filters  
 _note: Filter is done based on **OR** filtering_
 
 * * *
