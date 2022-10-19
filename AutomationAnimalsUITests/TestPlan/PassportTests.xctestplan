@@ -1,0 +1,28 @@
+{
+  "configurations" : [
+    {
+      "id" : "E717E2A6-DA34-448C-BEE9-A9AAFA96CB18",
+      "name" : "Configuration 1",
+      "options" : {
+
+      }
+    }
+  ],
+  "defaultOptions" : {
+    "testTimeoutsEnabled" : true
+  },
+  "testTargets" : [
+    {
+      "skippedTests" : [
+        "AutomationAnimalsBaseClass",
+        "AutomationAnimalsUITests"
+      ],
+      "target" : {
+        "containerPath" : "container:AutomationAnimals.xcodeproj",
+        "identifier" : "7B173CB9288A9C70008076FC",
+        "name" : "AutomationAnimalsUITests"
+      }
+    }
+  ],
+  "version" : 1
+}
